@@ -388,12 +388,17 @@ footer {
         min-height: 100vh;
         min-height: 100dvh;
         display: flex;
-        align-items: center;
+        align-items: stretch;
         justify-content: center;
         box-sizing: border-box;
     }
     .header .container {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .preheader {
+         margin-top: auto;
     }
     .services div {
         width: 100%;
