@@ -97,19 +97,6 @@ img {
     text-align: start;
 }
 
-.eyebrow {
-    font-family: var(--font-mono);
-    font-size: 0.78rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--gold-soft);
-    margin: 0 0 0.6rem;
-}
-
-.eyebrow-center {
-    text-align: center;
-}
-
 .header h1 {
     font-family: var(--font-display);
     font-weight: 600;
