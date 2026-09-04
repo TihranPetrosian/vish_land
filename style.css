@@ -390,6 +390,8 @@ footer {
 }
 
 @media (max-width: 600px) {
+    *:hover {
+    }
     .header {
         padding: 2.5rem 1.25rem 2rem;
         min-height: 100vh;
