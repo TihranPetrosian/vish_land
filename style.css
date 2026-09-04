@@ -390,8 +390,6 @@ footer {
 }
 
 @media (max-width: 600px) {
-    *:hover {
-    }
     .header {
         padding: 2.5rem 1.25rem 2rem;
         min-height: 100vh;
@@ -429,6 +427,28 @@ footer {
     .preheader-numbers {
         flex-direction: column;
         gap: 0.6rem;
+    }
+
+    .btn:hover {
+        background: var(--pine);
+        color: var(--card);
+        box-shadow: 0 8px 20px var(--pine);
+    }
+
+    .preheader-numbers p a:hover {
+        color: var(--gold-soft);
+    }
+
+    .services div:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 28px rgba(14, 38, 34, 0.1);
+        border-color: var(--gold-soft);
+    }
+
+    .advantage-item:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 28px rgba(14, 38, 34, 0.1);
+        border-color: var(--gold-soft);
     }
 }
 
